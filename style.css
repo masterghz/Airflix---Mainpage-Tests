@@ -1,0 +1,60 @@
+:root {
+    --azul-escuro: #0F1F3D;
+    --laranja: #c75600;
+    --cinza-claro: #E0E0E0;
+    --cinza-escuro: #B0B0B0;
+    --branco: #FFFFFF;
+    --preto: #111111;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:wght@400;700&display=swap');
+
+header{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+header:hover{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 110%;
+}
+body {
+    background-color: #111111;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 10px;
+}
+.cabecalho {
+    color: #c75600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F1F3D;
+}
+.box-container-content {
+    color: #FFFFFF;
+    background: #0F1F3D;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box-container-content img{
+    color: #FFFFFF;
+    min-height: 30vh;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    background-size:cover;
+    background-position: center;
+}
+
+.imagesrc {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
